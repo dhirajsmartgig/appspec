@@ -5,6 +5,6 @@ files:
     destination: /home/ubuntu/test
 hooks:
   BeforeInstall:
-    - location: /home/ubuntu/test/start_server.sh
+    - location: /start_server.sh
       timeout: 300
       runas: root
