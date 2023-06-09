@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo /home/ubuntu/test/start.sh
+sudo /home/ubuntu/test2/start.sh
