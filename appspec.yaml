@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /home/ubuntu/test
 hooks:
-  ApplicationStart:
+  BeforeInstall:
     - location: /home/ubuntu/test/start_server.sh
       timeout: 300
       runas: root
