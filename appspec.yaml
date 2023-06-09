@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/test/
+    destination: /home/ubuntu/test
 hooks:
   ApplicationStart:
     - location: /home/ubuntu/test/start_server.sh
